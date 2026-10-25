@@ -1,0 +1,8 @@
+{
+  "name": "স্টাডি গ্রুপ",
+  "short_name": "স্টাডি",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#4f46e5",
+  "theme_color": "#4f46e5"
+}
