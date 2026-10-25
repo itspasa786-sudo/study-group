@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#4f46e5">
+<link rel="manifest" href="/manifest.json">
+<title>স্টাডি গ্রুপ</title>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--tx:#1b1f2a;--mu:#6b7280;--ac:#4f46e5;--ac2:#eef0ff;--bd:#e5e7eb}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1117;--card:#181b24;--tx:#eceef4;--mu:#9aa3b2;--ac:#818cf8;--ac2:#232748;--bd:#2a2f3c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:'Hind Siliguri',system-ui,sans-serif;line-height:1.5;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
+.wrap{max-width:520px;margin:0 auto;padding:14px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:16px;margin-bottom:12px}
+.card h2{font-size:15px;margin:0 0 10px;color:var(--mu);font-weight:500}
+.ring{font-size:56px;font-weight:600;text-align:center;font-variant-numeric:tabular-nums}
+.mu{color:var(--mu);font-size:13px}
+.c{text-align:center}
+.row{display:flex;gap:8px}
+.row>*{flex:1}
+button{font:inherit;border:0;border-radius:12px;padding:10px;font-size:15px;cursor:pointer;background:var(--ac2);color:var(--ac)}
+button.p{background:var(--ac);color:#fff}
+input{width:100%;font:inherit;font-size:15px;padding:10px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);margin:4px 0 10px}
+label{font-size:13px;color:var(--mu)}
+.tabs{display:flex;gap:6px;margin-bottom:12px}
+.tabs button.on{background:var(--ac);color:#fff}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.stat{background:var(--ac2);border-radius:12px;padding:10px;text-align:center}
+.stat b{display:block;font-size:22px}
+.rk{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--bd)}
+.rk.me{background:var(--ac2);border-radius:10px;padding:9px 8px;font-weight:600}
+.err{color:#dc2626;font-size:14px;margin-bottom:8px}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
